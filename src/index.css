@@ -1,13 +1,156 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Open Sans';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.wrapper {
+  background-color: white;
+  width: 400px;
+  padding: 2rem;
+  box-shadow: 0 1.5rem 1rem -1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.3rem;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 1rem;
+  margin-top: 1rem;
+  box-sizing: border-box;
+  font: inherit;
+  border: 1px solid #fff;
+  color: #565656;
+  border-radius: none;
+ 
+}
+.input-area{
+  margin-left: 30px;
+  overflow-y: auto;
+  padding: 8px;
+  z-index: 2;
+  width: 480px;
+  height: 106px;
+  background: #fff;
+  border: 1px solid #C3C2CF;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.input:focus {
+  outline: 0;
+  outline-offset: 0;
+ 
+}
+
+.input.has-error {
+  border-color: tomato;
+}
+
+.error {
+  margin: 0;
+  font-size: 90%;
+  color: tomato;
+}
+
+.tag-item {
+  
+  background-color: rgba(102, 153, 255, 0.2);
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 30px;
+  height: 30px;
+  padding: 0 4px 0 1\rem;
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.1rem 0.1rem 0;
+}
+
+.tag-item > .button {
+  
+  background: transparent;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+  margin-left: 10px;
+  font-weight: bold;
+  padding: 0;
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-add{
+  height: 40px;
+  width: 98px;
+  margin: 16px;
+  background: #4262FF;
+  border-radius: 6px;
+  color: #fff;
+
+  
+
+}
+
+.button-get{
+  height: 40px;
+  width: 142px;
+  margin: 16px;
+  background: #4262FF;
+  border-radius: 6px;
+  color: #fff;
+
+
+}
+#container {
+  height: 800px;
+  position: relative;
+  
+}
+.board {
+  margin: auto;
+  height: 204px;
+  width: 540px;
+  background-color:  #F8F8F7;
+  border-radius: 8px 8px 0px 0px;
+  top: 50%;
+  left: 50%;
+  padding: 15px;
+   
+}
+.buttons-board{
+  margin: auto;
+  padding: 15px;
+  height: 96px;
+  width: 540px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  top: 50%;
+    left: 50%;
+    
+}
+.smallerFont{
+  font-weight: 300;
+  font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 27px;
+
+}
+.bigFont{
+  font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 27px;
+}
+.headline{
+  margin-left: 30px;
 }
