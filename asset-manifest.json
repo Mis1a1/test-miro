@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-miro/static/css/main.9073b9dc.chunk.css",
+    "main.js": "/test-miro/static/js/main.bd12721f.chunk.js",
+    "main.js.map": "/test-miro/static/js/main.bd12721f.chunk.js.map",
+    "runtime-main.js": "/test-miro/static/js/runtime-main.1a6239d3.js",
+    "runtime-main.js.map": "/test-miro/static/js/runtime-main.1a6239d3.js.map",
+    "static/js/2.2fe1985a.chunk.js": "/test-miro/static/js/2.2fe1985a.chunk.js",
+    "static/js/2.2fe1985a.chunk.js.map": "/test-miro/static/js/2.2fe1985a.chunk.js.map",
+    "index.html": "/test-miro/index.html",
+    "precache-manifest.2e664e00fdde49b934206e5f893bd245.js": "/test-miro/precache-manifest.2e664e00fdde49b934206e5f893bd245.js",
+    "service-worker.js": "/test-miro/service-worker.js",
+    "static/css/main.9073b9dc.chunk.css.map": "/test-miro/static/css/main.9073b9dc.chunk.css.map",
+    "static/js/2.2fe1985a.chunk.js.LICENSE.txt": "/test-miro/static/js/2.2fe1985a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a6239d3.js",
+    "static/js/2.2fe1985a.chunk.js",
+    "static/css/main.9073b9dc.chunk.css",
+    "static/js/main.bd12721f.chunk.js"
+  ]
+}
